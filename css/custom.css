@@ -1,0 +1,134 @@
+#mainPanel, #topRight, #purchaseRight{
+	background-color: #75D5F6;
+	margin-top: 60px;
+}
+#logoMain img {
+	margin: 0 auto;
+	border: 1px solid black;
+	-webkit-box-shadow: 5px 5px grey;
+	-moz-box-shadow: 5px 5px grey;
+	box-shadow: 5px 5px grey;
+}
+#logoMain {
+	margin-top: 0.625em;
+}
+#mainPanel form {
+	margin-top: 1.875em;
+}
+#searchButton {
+	text-align: center;
+}
+#searchButton .btn {
+	font-size: 1.75em;
+	width: 50%;
+}
+#searchButton a {
+	font-size: 1.74em;
+}
+
+/* right top box  */
+#social img {
+	height: 15%;
+	width: 15%;
+	padding: 2%;
+}
+#topRight {
+	text-align: center;
+}
+#panelBody {
+	margin: 0 auto;
+}
+#topRight .btn {
+	font-size: 1.75em;
+	width: 75%;
+}
+
+/* special box */
+
+#specials {
+	background-color: #75D5F6;
+}
+#adImg {
+	margin-top: 20px;
+}
+
+#ad {
+	height: 30%;
+	width: 30%;
+	margin: 0 auto;
+}
+figcaption {
+	font-size: 1.75em;
+	text-align: center;
+	margin-bottom: 3em;
+}
+#rotater {
+	margin-left: 8em;
+	margin-top: 2em;
+}
+/* changes for search page */
+#searchRow {
+	margin-top: 5em;
+}
+
+#specialSearch {
+	margin-top: 60px;
+}
+#adSearch {
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+}
+#adSearch figcaption {
+	margin-top: 1.25em;
+}
+#adImgSearch {
+	margin-top: 1.875em;
+}
+
+/* detail page */
+#partImg {
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+}
+#partSpec {
+	margin-top: 1em;
+}
+.table, .table td {
+	border-color: black;
+}
+th {
+	background-color: red;
+}
+#partSpec .even {
+	background-color: #c0c0c0;
+}
+#partSpec .odd {
+	background-color: #cccccc;
+}
+#purchase {
+	font-size: 1.75em;
+}
+
+/*results page*/
+#details a {
+	text-decoration: none;
+	color: black;
+}
+#details a:hover {
+	font-size: 125%;
+	color: red;
+}
+#filter {
+	text-align: center;
+}
+#filterButton {
+	width: 99%;
+	margin: 0 auto;
+}
+/* contact form */
+#contactForm {
+	
+	
+}
