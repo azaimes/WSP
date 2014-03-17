@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SKYNET ELECTRONICS The Hobbyist home for all their part and kit needs!</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+                </button> 
+                <a class="navbar-brand" href="index.html"><img src="images/skynet_logo.png"></a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+
+                    <li class="active"><a href="search.html">SEARCH</a></li>
+
+                    <li><a href="about.html">ABOUT</a></li>
+
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    
+    <!-- main box
+    ================================= -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-push-1 col-md-6 col-lg-6 col-lg-push-1 col-sm-6 col-sm-push-1">
+                <div class="panel panel-default" id="mainPanel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">SEARCH</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="row">
+                            <form role="form">
+                                <div class="col-md-5 col-lg-5 col-sm-5 col-xs-5">
+                                    <div class="form-group">
+                                        <label for="partName">Part Name</label> <input type="text" class="form-control" id="partName" placeholder="Enter Part Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="partNumber">Part Number</label> <input type="text" class="form-control" id="partNumber" placeholder="Enter Part Number">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="keyword">Keyword</label> <input type="text" class="form-control" id="keyword" placeholder="Enter Keyword">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-lg-push-2 col-md-push-1">
+                                    <div class="form-group">
+                                        <label for="mount-type">Board Mounting Type</label><br>
+                                        <select>
+                                            <option value="smd">
+                                                Surface Mount
+                                            </option>
+
+                                            <option value="hole">
+                                                Through Hole
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="application">Application</label><br>
+                                        <select name="applications" id="applications">
+                                            <option value="audio">
+                                                Audio
+                                            </option>
+
+                                            <option value="automotive">
+                                                Automotive
+                                            </option>
+
+                                            <option value="broadcast">
+                                                Broadcast
+                                            </option>
+
+                                            <option value="computing">
+                                                Computing
+                                            </option>
+
+                                            <option value="industrial">
+                                                Industrial
+                                            </option>
+
+                                            <option value="lighting">
+                                                Lighting
+                                            </option>
+
+                                            <option value="medical">
+                                                Medical
+                                            </option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                    	<label for="tech">Technology<br>
+                                    		<select name="tech" id="techDD">
+                                    			<option value="lowPower">Low Power</option>
+                                    			<option value="openSource">Open Source Hardware</option>
+                                    			<option value="PS">Power Supplies</option>
+                                    			<option value="rf">RF Wireless</option>
+                                    			<option value="rfid">RFID</option>
+                                    			<option value="solar">Solar</option>
+                                    			<option value="sensor">Sensors</option>
+                                    			<option value="test">Test &amp; Measure</option>
+                                    			<option value="usb">USB</option>
+                                    			<option value="PL">Programable Logic</option>
+                                    		</select>
+                                    	</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div><!-- Button and advanced link -->
+
+                        <div class="row" id="searchRow">
+                            <div class="col-lg-6 col-md-6 col-lg-push-3 col-md-push-3 col-xs-6 col-sm-8" id="searchButton">
+                            <form method="link" action="results.html">
+                               <button type="submit" class="btn btn-danger">Search</button>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Speacials Box -->
+
+        
+            <div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1" id="specialSearch">
+                <div class="panel panel-default" id="specials">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">TODAY'S SPECIAL</h3>
+                    </div>
+
+                    <div class="panel-body" id="adImgSearch">
+                        <figure id="adSearch">
+                            <img src="images/arduino.png" class="img-responsive" alt="Arduino">
+
+                            <figcaption>Arduino UNO<br>
+                            &#36;25.99</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+		</div>
+            <div class="col-lg-4 col-lg-push-4 col-md-3 col-md-push-4 col-sm-4 col-sm-push-4 col-xs-4 col-xs-push-4" id="rotater">
+            <img src="images/drone.png" alt="Drone Ad" class="img-responsive"></div>
+        
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript">
+</script><!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js" type="text/javascript">
+</script>
+</body>
+</html>
